@@ -4,7 +4,7 @@ from google.adk.models.lite_llm import LiteLlm
 from .sub_agents.content_planner.agent import content_planner_agent
 from .prompt import SHORTS_PRODUCER_DESCRIPTION, SHORTS_PRODUCER_PROMPT
 
-MODEL = LiteLlm(model="openai/gpt-4o")
+MODEL = LiteLlm(model="openai/gpt-5")
 
 shorts_producer_agent = Agent(
     name="ShortsProducerAgent",
